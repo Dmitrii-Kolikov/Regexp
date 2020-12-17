@@ -19,7 +19,7 @@ public class Regexp {
         String s2 = "Hello123here567hey789now";
         String[] words2 = s2.split("\\d+"); //  (1 или более цифр)
         System.out.println(Arrays.toString(words2));
-        //Вывоодим наш массив строк. Заменяя все точки на тире.
+        //Вывоодим наш массив строк. Удаляя все цифры.
 
         String s3 = "Hello.there.hey";
         String c3 = s3.replace(".", "-");
